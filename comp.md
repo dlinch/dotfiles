@@ -1,9 +1,17 @@
 # Base Computer Setup
 
+## Version Managers
+
+First, install [Homebrew](https://brew.sh/)
+
+- NVM
+- RBEnv
+
 ## Git completion
 
+Add included `git-completion.bash` file to home `~/.`
 Add included `git-completion.zsh` to `~/.zsh` folder.
-Bash completion script should be available from nvm, but look up how to add it manually if NVM is unnecessary or not working.
+There is something to do with nvm loading bash completion, look into that as well.
 
 ## Global Git Config
 
@@ -60,8 +68,13 @@ Bash completion script should be available from nvm, but look up how to add it m
   autoUpdate = true
 ```
 
+## Vim
+
+Drop included `.vimrc` into home `~/.`
+
 ## Apps to Download
 
+- Firefox
 - Docker
 - Spotify
 - Flycut

@@ -2,6 +2,9 @@
 
 ```bash
 ## Git completion script
+
+# This should be unnecessary, if this file is in the right place the git-completion.zsh should find it automatically
+# source ~/git-completion.bash
 fpath=(~/.zsh $fpath)
 
 # Node Version Manager

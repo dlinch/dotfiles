@@ -9,7 +9,7 @@ First, install [Homebrew](https://brew.sh/)
 
 ## Git completion
 
-Add included `git-completion.bash` file to home `~/.`
+Add included `git-completion.bash` file to home `~/.zsh`
 Add included `git-completion.zsh` to `~/.zsh` folder.
 There is something to do with nvm loading bash completion, look into that as well.
 

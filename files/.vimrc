@@ -7,7 +7,6 @@ set backspace=indent,eol,start
 syntax on
 " Key Overrides
 nnoremap rr <C-r>
-nnoremap ; :
 inoremap jj <esc>
 let mapleader = ","
 " Enable file type detection and do language-dependent indenting.

@@ -50,3 +50,5 @@ alias dpa='docker system prune -a -f --volumes'
 
 # Export CLI Argument ENV Variables
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+# Ensures homebrew path is before usr/bin path and homebrew is checked first
+export PATH="/opt/homebrew/bin:$PATH"

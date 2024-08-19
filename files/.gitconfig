@@ -1,31 +1,9 @@
-# Base Computer Setup
-
-## Version Managers
-
-First, install [Homebrew](https://brew.sh/)
-
-- NVM
-- rbenv
-
-## Git completion
-
-Add included `git-completion.bash` file to home `~/.`
-Add included `git-completion.zsh` to `~/.zsh` folder.
-There is something to do with nvm loading bash completion, look into that as well.
-
-## Global Git Config
-
-```bash
+# This is Git's per-user configuration file.
 [credential]
   helper = osxkeychain
 [user]
   name = Derik Linch
   email = dlinch33@gmail.com
-  signingKey = <KEY>
-[commit]
-  gpgsign = false
-[gpg]
-  program = gpg
 [color]
   ui = true
   pager = true
@@ -49,14 +27,15 @@ There is something to do with nvm loading bash completion, look into that as wel
   oldHighlight = red bold 52
   newNormal = green bold
   newHighlight = green bold 22
+[pull]
+  rebase = true
 [fetch]
   prune = true
   pruneTags = true
-[pull]
-  rebase = true
 [push]
   default = current
   followTags = true
+  useForceIfIncludes = true
 [branch]
   autoSetupRebase = always
 [rebase]
@@ -66,25 +45,3 @@ There is something to do with nvm loading bash completion, look into that as wel
 [rerere]
   enabled = true
   autoUpdate = true
-```
-
-## Vim
-
-Drop included `.vimrc` into home `~/.`
-
-## Apps to Download
-
-- Firefox
-- Docker
-- Spotify
-- Flycut
-- Dash
-- Spectacle
-- Kap
-- Insomnia
-- VSCode
-
-## Fonts
-
-[Dowload Iosevka](https://github.com/be5invis/iosevka)
-Install Iosevka

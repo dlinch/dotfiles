@@ -36,6 +36,7 @@
   default = current
   followTags = true
   useForceIfIncludes = true
+  autoSetupRemote = true
 [branch]
   autoSetupRebase = always
 [rebase]
